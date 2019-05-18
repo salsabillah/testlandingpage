@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Username:</strong>
+  <%= @landingpage.username %>
+</p>
+
+<p>
+  <strong>Password:</strong>
+  <%= @landingpage.password %>
+</p>
+
+<%= link_to 'Edit', edit_landingpage_path(@landingpage) %> |
+<%= link_to 'Back', landingpages_path %>
