@@ -15,14 +15,55 @@ body, html {
 .p { height: 100%; font-family: 'Roboto', sans-serif;
 }
 .bgimg {
-  background-image: url('assets/Forest.jpg');
+  background-image: url('assets/Headerweb.png');
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.bgimg1 {
+  background-image: url('assets/Section-About.png');
   min-height: 100%;
   background-position: center;
   background-size: cover;
 }
 
+.bgimg2 {
+  background-image: url('assets/Section-Login.png');
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.bgimg3 {
+  background-image: url('assets/Section-HIW.png');
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+} 
+
+.bgimg4 {
+  background-image: url('assets/Section-feature.png');
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+} 
 .menu {
   display: none;
+}
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 }
 
@@ -31,97 +72,111 @@ body, html {
 
 <!-- Navbar-->
 <div class="w3-top">
-  <div class="w3-row w3-padding w3-black">
+  <div class="w3-row w3-padding w3-green">
     <div class="w3-col s3">
-      <a href="#" class="w3-button w3-block w3-black">HOME</a>
+      <a href="#" class="w3-button w3-block">HOME</a>
     </div>
     <div class="w3-col s3">
-      <a href="#about" class="w3-button w3-block w3-black">ABOUT</a>
+      <a href="#about" class="w3-button w3-block ">ABOUT</a>
     </div>
     <div class="w3-col s3">
-      <a href="#menu" class="w3-button w3-block w3-black">TRASH LITERATION</a>
+      <a href="#menu" class="w3-button w3-block ">TRASH LITERATION</a>
     </div>
     <div class="w3-col s3">
-      <a href="#where" class="w3-button w3-block w3-black">AROUND ME</a>
+      <a href="#where" class="w3-button w3-block ">AROUND ME</a>
     </div>
   </div>
 </div>
 <!--Header -->
-<div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
-  <div class="w3-display-topleft w3-padding-large w3-xlarge">
-  </div>
-  <div class="w3-display-middle">
-    <strong><h1 class="w3-jumbo w3-animate-top">Karoong</h1></strong>
-    <hr class="w3-border-grey" style="margin:auto;width:40%">
-    <p class="w3-large w3-center">New Way To Cherish The Earth</p>
+<div class="bgimg w3-display-container w3-text-green">
+  <div class="w3-display-topleft w3-padding-large w3-xlarge"></div>
+  <div class="w3-display-middle w3-padding-64">
+  <br><br><br><br><br><br> <br> <br><br><br><br><br>
     <button class="w3-center w3-button w3-round-xxlarge w3-hover-green">Sign In with Google</button>
     <button class="w3-center w3-button w3-round-xxlarge w3-hover-green">Register</button>
   </div>
-
 </div>
-<!-- Container (About Section) -->
-<div class="w3-content w3-padding-64 " id="about">
-  <strong><h3 class="w3-center  w3-animate-top ">More About Karoong</h3></strong>
-  <div class="w3-row">
-    <div class="w3-col m6 w3-center w3-padding-large">
-    <br>
-    <br>
-      <img src="assets/K.png" width="40%" class= w3-animate-zoom >
-    </div>
 
-    <!-- Hide this text on small devices -->
-    <div class="w3-col m6 w3-hide-small w3-padding-64 w3-animate-zoom">
+<!-- Container (About Section) -->
+<div class="bgimg1 w3-display-container w3-text-white">
+  <div class="w3-display-topleft w3-padding-large w3-xlarge"></div>
+  <div class="w3-display-middle w3-padding-64">
+      <div class="w3-row">
+      <div class="w3-col m6 w3-margin w3-midlle w3-padding-large w3-animate-zoom">
+      <img src="assets/Logo-About.png" class="w3-image" width=60%>
+      </div>
+      <br>
+      <div class=" w3-padding-large w3-animate-zoom w3-midlle">
       <p> Karoong there is a forum that facilitates people to be more concerned about the environment.</p>
       <p> Together with karoong, one individual to another can share the latest information on environmental issues surrounding</p>
       <p> Karoong also hopes to become a forum for many solutions to environmental problems with active discussion from users.</p>
-      <strong><p> Karoong, New Way To Cherish The Earth </p></strong>
+      <p> Karoong, New Way To Cherish The Earth </p>
+      </div>
     </div>
-  </div>
-
-  
-    <!-- Trash and Tags -->
-
-<div class="w3-container w3-padding-64 ">
-    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16 w3-center  w3-animate-bottom">Source and Bin Tagging</h3>
-    <p class="w3-animate-bottom">You can post environmental issues, like source of trash near your house or even give information where cool recycling trash conducted.
-    lets share this good information and together we can solve this! Start from you!
-    </p>
-  </div>
-
-  <div class="w3-row-padding">
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <img src="assets/Feeds1.png" style="width:100%" class="w3-animate-left">
     </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-     <img src="assets/Feeds2.png"  style="width:100%"class="w3-animate-left">
-    </div>
-   
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <img src="assets/feeds3.png"  style="width:100%"class="w3-animate-right">
-    </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <img src="assets/feeds4.png" style="width:100%"class="w3-animate-right">
-    </div>
-  </div>
-<!-- How it works-->
-
-
-<!-- Features-->
-<div class="w3-container w3-padding-32" id="about">
-    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16 w3-center w3-animate-bottom">Features</h3>
-    <p class = "w3-animate-bottom; w3-center">you can use our feature free. Lets join and discover the new way to cherish the earth with us! Post a picture as a source tags or bin tags. Then vote it 'up' teh case, than discus with other to solved this. When it resolved you can share the solution to another platform. So other people can see the solutions!</p>
-  </div>
-  <div class="w3-row-padding w3-padding-16 w3-center" id="feature">
-  <i class="glyphicon glyphicon-heart w3-quarter w3-padding w3-animate-bottom" style=" font-size:60px;color:light-gray;text-shadow:2px 2px 4px #000000;" ><h5 class="w3-center w3-middle ">Vote</h5></i>
-  <i class="glyphicon glyphicon-camera  w3-quarter w3-padding w3-animate-bottom" style=" font-size:60px;color:light-gray;text-shadow:2px 2px 4px #000000;"><h5 class="w3-center ">Post Picture</h5></i>
-  <i class="glyphicon glyphicon-map-marker w3-quarter w3-padding w3-animate-bottom" style=" font-size:60px;color:light-gray;text-shadow:2px 2px 4px #000000;"><h5 class="w3-center ">Around Me</h5></i></i>
-  <i class="glyphicon glyphicon-trash  w3-quarter w3-padding w3-animate-bottom"  style=" font-size:60px;color:light-gray;text-shadow:2px 2px 4px #000000;"><h5 class="w3-center ">Bin Tags</h5></i></i>
-  <i class="glyphicon glyphicon-tags  w3-quarter w3-padding w3-animate-bottom"  style=" font-size:60px;color:light-gray;text-shadow:2px 2px 4px #000000;"><h5 class="w3-center ">Source Tags</h5></i></i>
-  <i class="glyphicon glyphicon-comment  w3-quarter w3-padding w3-animate-bottom" style=" font-size:60px;color:light-gray;text-shadow:2px 2px 4px #000000;"><h5 class="w3-center ">Comment</h5></i></i>
-  <i class="glyphicon glyphicon-check  w3-quarter w3-padding w3-animate-bottom"  style=" font-size:60px;color:light-gray;text-shadow:2px 2px 4px #000000;"><h5 class="w3-center ">Resolved</h5></i></i>
-  <i class="glyphicon glyphicon-share-alt w3-quarter w3-padding w3-animate-bottom"  style=" font-size:60px;color:light-gray;text-shadow:2px 2px 4px #000000;"><h5 class="w3-center ">Share</h5></i></i>
 </div>
 
+<!-- Trash and Tags -->
+<div class="bgimg2 w3-display-container w3-text-green w3-mobile">
+  <div class="w3-display-topleft w3-padding-large w3-xlarge"></div>
+  <div class="w3-display-middle w3-padding-64">
+    <div class="w3-row-padding">
+    <div class="w3-col m6  w3-margin-bottom">
+      <img src="assets/Feeds1.png" style="width:100%" class="w3-animate-left">
+    </div>
+    <div class="w3-col m6 w3-margin-bottom">
+     <img src="assets/Feeds2.png"  style="width:100%"class="w3-animate-left">
+    </div>
+    <div class="w3-col m6 w3-margin-bottom">
+      <img src="assets/feeds3.png"  style="width:100%"class="w3-animate-right">
+    </div>
+    <div class="w3-col m6 w3-margin-bottom">
+      <img src="assets/feeds4.png" style="width:100%"class="w3-animate-right">
+    </div>
+    </div>
+  </div>
+  </div>
+</div>
+
+<!-- How it works-->
+<div class="bgimg3 w3-display-container w3-text-green">
+  <div class="w3-display-position w3-margin-top w3-padding"></div>
+  <div class="w3-display-position">
+    <div class="row">
+    <div class="column">
+       <img src="assets/HIW-Section1.png" style="width:90%" class=" w3-animate-zoom">
+    </div>
+    <div class="column">
+       <img src="assets/HIW-Section2.png" style="width:90%" class="w3-animate-zoom">
+    </div>
+    <div class="column">
+       <img src="assets/HIW-Section3.png" style="width:90%" class="w3-animate-zoom">
+    </div>
+    <div class="column">
+       <img src="assets/HIW-Section4.png" style="width:90%" class="w3-animate-zoom">
+    </div>
+  </div>
+  </div>
+</div>
+
+<!-- Features-->
+<div class="bgimg4 w3-display-container w3-text-green">
+  <div class="w3-display-middle-bottom w3-margin-top w3-padding-large w3-xlarge"></div>
+  <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16 w3-center w3-animate-bottom">Features</h3>
+  <p class = "w3-animate-bottom; w3-center">you can use our feature free. Lets join and discover the new way to cherish the earth with us! Post a picture as a source tags or bin tags. Then vote it 'up' teh case, than discus with other to solved this. When it resolved you can share the solution to another platform. So other people can see the solutions!</p>
+    <div class="w3-row-padding w3-padding-16 w3-center" id="feature">
+    <i class="glyphicon glyphicon-heart w3-quarter w3-padding w3-animate-bottom" style=" font-size:60px;color:light-gray;text-shadow:2px 2px 4px #000000;" ><h5 class="w3-center w3-middle ">Vote</h5></i>
+    <i class="glyphicon glyphicon-camera  w3-quarter w3-padding w3-animate-bottom" style=" font-size:60px;color:light-gray;text-shadow:2px 2px 4px #000000;"><h5 class="w3-center ">Post Picture</h5></i>
+    <i class="glyphicon glyphicon-map-marker w3-quarter w3-padding w3-animate-bottom" style=" font-size:60px;color:light-gray;text-shadow:2px 2px 4px #000000;"><h5 class="w3-center ">Around Me</h5></i></i>
+    <i class="glyphicon glyphicon-trash  w3-quarter w3-padding w3-animate-bottom"  style=" font-size:60px;color:light-gray;text-shadow:2px 2px 4px #000000;"><h5 class="w3-center ">Bin Tags</h5></i></i>
+    <i class="glyphicon glyphicon-tags  w3-quarter w3-padding w3-animate-bottom"  style=" font-size:60px;color:light-gray;text-shadow:2px 2px 4px #000000;"><h5 class="w3-center ">Source Tags</h5></i></i>
+    <i class="glyphicon glyphicon-comment  w3-quarter w3-padding w3-animate-bottom" style=" font-size:60px;color:light-gray;text-shadow:2px 2px 4px #000000;"><h5 class="w3-center ">Comment</h5></i></i>
+    <i class="glyphicon glyphicon-check  w3-quarter w3-padding w3-animate-bottom"  style=" font-size:60px;color:light-gray;text-shadow:2px 2px 4px #000000;"><h5 class="w3-center ">Resolved</h5></i></i>
+    <i class="glyphicon glyphicon-share-alt w3-quarter w3-padding w3-animate-bottom"  style=" font-size:60px;color:light-gray;text-shadow:2px 2px 4px #000000;"><h5 class="w3-center ">Share</h5></i></i>
+    </div>
+  </div>  
+  </div>
+</div>
 
 <script>
 // Tabbed Menu
@@ -149,21 +204,5 @@ function myFunction(id) {
   }
 }
 
-<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  AOS.init();
-</script>
-
 </body>
-<br>
-<br>
-<br>
-<br>
-<footer class="w3-container w3-padding-64 w3-black w3-center w3-large"> 
-  <i class="fa fa-facebook-official w3-hover-opacity"></i>
-  <i class="fa fa-instagram w3-hover-opacity"></i>
-  <i class="fa fa-snapchat w3-hover-opacity"></i>
-  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-  <i class="fa fa-twitter w3-hover-opacity"></i>
-  <i class="fa fa-linkedin w3-hover-opacity"></i>
-</footer>
 </html>

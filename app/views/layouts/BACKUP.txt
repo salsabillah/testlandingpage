@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<title>Karoong</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" >
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto&display=swap" >
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<style>
+body, html {
+  height: 100%;  font-family: 'Ubuntu', sans-serif, bold;
+}
+.p { height: 100%; font-family: 'Roboto', sans-serif;
+}
+.bgimg {
+  background-image: url('assets/Headerweb.png');
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.bgimg1 {
+  background-image: url('assets/Section-About.png');
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+
+.menu {
+  display: none;
+}
+}
+
+</style>
+<body>
+
+<!-- Navbar-->
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-green">
+    <div class="w3-col s3">
+      <a href="#" class="w3-button w3-block">HOME</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#about" class="w3-button w3-block ">ABOUT</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#menu" class="w3-button w3-block ">TRASH LITERATION</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#where" class="w3-button w3-block ">AROUND ME</a>
+    </div>
+  </div>
+</div>
+<!--Header -->
+<div class="bgimg w3-display-container w3-text-green">
+  <div class="w3-display-topleft w3-padding-large w3-xlarge">
+</div>
+  <div class="w3-display-middle w3-padding-64">
+  <br><br><br><br><br><br> <br> <br><br><br><br><br>
+    <button class="w3-center w3-button w3-round-xxlarge w3-hover-green">Sign In with Google</button>
+    <button class="w3-center w3-button w3-round-xxlarge w3-hover-green">Register</button>
+  </div>
+</div>
+
+
+<!-- Container (About Section) -->
+<div class="bgimg1 w3-display-container w3-text-white">
+  <div class="w3-display-topleft w3-padding-large w3-xlarge">
+</div>
+ <div class="w3-display-middle w3-padding-64">
+    <!-- Hide this text on small devices -->
+<div class="w3-display-container w3-text-white">
+<div class="w3-display-topleft w3-padding-large w3-xlarge">
+</div>
+<div class="w3-display-middle w3-padding-64 " id="about">
+    <div class="w3-col m6 w3-hide-small w3-padding-64 w3-animate-zoom">
+      <p> Karoong there is a forum that facilitates people to be more concerned about the environment.</p>
+      <p> Together with karoong, one individual to another can share the latest information on environmental issues surrounding</p>
+      <p> Karoong also hopes to become a forum for many solutions to environmental problems with active discussion from users.</p>
+      <strong><p> Karoong, New Way To Cherish The Earth </p></strong>
+    </div>
+  </div>
+
+  
+    <!-- Trash and Tags -->
+
+<div class="w3-container w3-padding-64 ">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16 w3-center  w3-animate-bottom">Source and Bin Tagging</h3>
+    <p class="w3-animate-bottom">You can post environmental issues, like source of trash near your house or even give information where cool recycling trash conducted.
+    lets share this good information and together we can solve this! Start from you!
+    </p>
+  </div>
+
+  <div class="w3-row-padding">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="assets/Feeds1.png" style="width:100%" class="w3-animate-left">
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+     <img src="assets/Feeds2.png"  style="width:100%"class="w3-animate-left">
+    </div>
+   
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="assets/feeds3.png"  style="width:100%"class="w3-animate-right">
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="assets/feeds4.png" style="width:100%"class="w3-animate-right">
+    </div>
+  </div>
+<!-- How it works-->
+
+
+<!-- Features-->
+<div class="w3-container w3-padding-32" id="about">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16 w3-center w3-animate-bottom">Features</h3>
+    <p class = "w3-animate-bottom; w3-center">you can use our feature free. Lets join and discover the new way to cherish the earth with us! Post a picture as a source tags or bin tags. Then vote it 'up' teh case, than discus with other to solved this. When it resolved you can share the solution to another platform. So other people can see the solutions!</p>
+  </div>
+  <div class="w3-row-padding w3-padding-16 w3-center" id="feature">
+  <i class="glyphicon glyphicon-heart w3-quarter w3-padding w3-animate-bottom" style=" font-size:60px;color:light-gray;text-shadow:2px 2px 4px #000000;" ><h5 class="w3-center w3-middle ">Vote</h5></i>
+  <i class="glyphicon glyphicon-camera  w3-quarter w3-padding w3-animate-bottom" style=" font-size:60px;color:light-gray;text-shadow:2px 2px 4px #000000;"><h5 class="w3-center ">Post Picture</h5></i>
+  <i class="glyphicon glyphicon-map-marker w3-quarter w3-padding w3-animate-bottom" style=" font-size:60px;color:light-gray;text-shadow:2px 2px 4px #000000;"><h5 class="w3-center ">Around Me</h5></i></i>
+  <i class="glyphicon glyphicon-trash  w3-quarter w3-padding w3-animate-bottom"  style=" font-size:60px;color:light-gray;text-shadow:2px 2px 4px #000000;"><h5 class="w3-center ">Bin Tags</h5></i></i>
+  <i class="glyphicon glyphicon-tags  w3-quarter w3-padding w3-animate-bottom"  style=" font-size:60px;color:light-gray;text-shadow:2px 2px 4px #000000;"><h5 class="w3-center ">Source Tags</h5></i></i>
+  <i class="glyphicon glyphicon-comment  w3-quarter w3-padding w3-animate-bottom" style=" font-size:60px;color:light-gray;text-shadow:2px 2px 4px #000000;"><h5 class="w3-center ">Comment</h5></i></i>
+  <i class="glyphicon glyphicon-check  w3-quarter w3-padding w3-animate-bottom"  style=" font-size:60px;color:light-gray;text-shadow:2px 2px 4px #000000;"><h5 class="w3-center ">Resolved</h5></i></i>
+  <i class="glyphicon glyphicon-share-alt w3-quarter w3-padding w3-animate-bottom"  style=" font-size:60px;color:light-gray;text-shadow:2px 2px 4px #000000;"><h5 class="w3-center ">Share</h5></i></i>
+</div>
+
+
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+}
+document.getElementById("myLink").click();
+
+function myFunction(id) {
+  var x = document.getElementById(id);
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace("w3-show", "");
+  }
+}
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  AOS.init();
+</script>
+
+</body>
+<br>
+<br>
+<br>
+<br>
+<footer class="w3-container w3-padding-64 w3-black w3-center w3-large"> 
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+</footer>
+</html>
